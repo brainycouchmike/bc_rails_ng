@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Brainy Couch Rails Angular App",
   "license": "Copywrite 2015 Brainy Couch Studios",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-haml": "^0.1.6"
+  },
   "scripts": {
     "test": "gulp test"
   },

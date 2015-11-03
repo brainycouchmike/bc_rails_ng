@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+pages = Page.create([{
+  page_handle: '',
+  html_title:  'Home Page - Brainy Couch Studios',
+  page_title:  'Welcome to Brainy Couch Studios',
+  page_data: [{'%': 'p','class': 'paper','content': 'This is the default page for the Brainy Couch Studios Rails Angular project.'}],
+  page_default: true,
+  group_id: 1
+}])

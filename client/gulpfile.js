@@ -27,3 +27,8 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
+
+/**
+ * Export gulp for dev-tools
+ */
+module.exports = gulp;
