@@ -1,5 +1,5 @@
 angular.module 'bcRailsNg'
-  .config ($stateProvider, $urlRouterProvider) ->
+  .config ($stateProvider, $urlRouterProvider, $locationProvider) ->
     'ngInject'
     $stateProvider
       .state 'home',
@@ -7,9 +7,11 @@ angular.module 'bcRailsNg'
         templateUrl: 'app/main/main.html'
         controller: 'MainController'
         controllerAs: 'main'
-      .state 'pages',
-        url: '/pages'
-        templateUrl: 'app/pages/pages.html.html'
-        controller: 'PagesController'
+      .state 'projects',
+        url: '/projects'
+        templateUrl: 'app/projects/projects.html'
+        controller: 'ProjectsController'
+        controllerAs: 'projects'
 
     $urlRouterProvider.otherwise '/'
+    $locationProvider.html5Mode true
