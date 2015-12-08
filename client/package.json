@@ -3,13 +3,11 @@
   "version": "0.0.1",
   "description": "Brainy Couch Rails Angular App",
   "license": "Copywrite 2015 Brainy Couch Studios",
-  "dependencies": {
-    "gulp-slim": "^0.3.0"
-  },
   "scripts": {
     "test": "gulp test"
   },
-  "devDependencies": {
+  "dependencies": {
+    "gulp-slim": "^0.3.0",
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
     "chalk": "~1.1.1",
