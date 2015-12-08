@@ -1,0 +1,13 @@
+/ '/client/app/projects/projects.html.slim'
+/.flex layout="column"
+md-content.flex.layout-fill.md-whiteframe-z2 layout="column"
+  header
+    acme-navbar creation-date="projects.creationDate"
+  section.jumbotron
+    h1 Projects
+  .techs
+    md-card ng-repeat="_project in projects.allProjects"
+      md-card-content
+        h3.md-title {{_project.projectTitle}}
+      .md-action-buttons
+        md-button ng-href="{{_project.projectHandle}}" Visit

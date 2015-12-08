@@ -1,0 +1,6 @@
+md-sidenav.site-sidenav.md-sidenav-left.md-whiteframe-z1.flex md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')"
+  md-toolbar.md-whiteframe-z2
+    img.padded ng-src="assets/images/node-sass.png"
+  md-list
+    md-list-item ng-repeat="route in sn.routes"
+      md-button ng-click="sn.navigate('{{route.name}}')" ng-class="{'md-primary' : route.url === sn.location.path() }" {{route.name}}

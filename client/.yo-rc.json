@@ -54,8 +54,8 @@
         "srcExtension": "coffee"
       },
       "htmlPreprocessor": {
-        "key": "haml",
-        "extension": "haml"
+        "key": "slim",
+        "extension": "slim"
       },
       "bootstrapComponents": {
         "name": null,
