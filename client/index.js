@@ -22,10 +22,10 @@ var auth = function (req, res, next) {
 };
 
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 9000));
 app.use(auth);
 app.use(express.static(__dirname + '/.tmp/serve'));
 
 app.listen(app.get('port'), function() {
   console.log("Static express server is now running at localhost:" + app.get('port'))
-})
+});
