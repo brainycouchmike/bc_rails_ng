@@ -1,6 +1,6 @@
 {
   "name": "bcRailsNg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "angular-animate": "~1.4.2",
     "angular-cookies": "~1.4.2",
@@ -24,7 +24,6 @@
     "angular-mocks": "~1.4.2"
   },
   "resolutions": {
-    "jquery": "~2.1.4",
     "angular": "~1.4.2"
   }
 }
