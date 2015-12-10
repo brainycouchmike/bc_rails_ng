@@ -2,7 +2,8 @@
   "name": "bcRailsNg",
   "version": "0.0.1",
   "description": "Brainy Couch Rails Angular App",
-  "license": "Copywrite 2015 Brainy Couch Studios",
+  "license": "UNLICENCED",
+  "repository": "https://github.com/brainycouchmike/bc_rails_ng",
   "scripts": {
     "test": "gulp test"
   },
