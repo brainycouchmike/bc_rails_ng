@@ -57,12 +57,10 @@
     "wiredep": "~2.2.2",
     "wrench": "~1.5.8",
     "immutable": "3.7.5",
-    "acorn": "2.6.4"
+    "acorn": "~2.6.4"
   },
   "engines": {
-    "node": ">=0.10.0"
-  },
-  "devDependencies": {
-    "acorn": "^2.6.4"
+    "node": ">=0.10.26",
+    "npm": "~3.5.1"
   }
 }
