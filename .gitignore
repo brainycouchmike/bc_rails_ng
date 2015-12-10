@@ -14,3 +14,6 @@
 
 # Ignore SublimeText Project Files
 /*sublime*
+
+# Ignore /public serve directory
+/public
