@@ -15,6 +15,8 @@ gem 'slim', '~> 3.0', '>= 3.0.6'
 
 gem 'rails_12factor'
 
+gem 'puma'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
