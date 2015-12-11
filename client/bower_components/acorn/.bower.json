@@ -1,0 +1,14 @@
+{
+  "name": "acorn",
+  "homepage": "https://github.com/marijnh/acorn",
+  "version": "2.6.4",
+  "_release": "2.6.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.6.4",
+    "commit": "2c0e4ab7872135959dee8d331c7089353365d379"
+  },
+  "_source": "git://github.com/marijnh/acorn.git",
+  "_target": "~2.6.4",
+  "_originalSource": "acorn"
+}
