@@ -10,4 +10,5 @@ angular.module 'bcRailsNg', [
   'ngMaterial'
   'toastr'
   'rails'
+  'malarkey'
 ]
