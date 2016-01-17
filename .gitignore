@@ -16,4 +16,7 @@
 /*sublime*
 
 # Ignore /public serve directory
-#/public
+/public/*
+
+# Ignore DS_Store
+.DS_Store
